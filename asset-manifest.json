@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rYTS-clone/static/css/main.88b3a0b3.chunk.css",
+    "main.js": "/rYTS-clone/static/js/main.bbca37b7.chunk.js",
+    "main.js.map": "/rYTS-clone/static/js/main.bbca37b7.chunk.js.map",
+    "runtime-main.js": "/rYTS-clone/static/js/runtime-main.dd618295.js",
+    "runtime-main.js.map": "/rYTS-clone/static/js/runtime-main.dd618295.js.map",
+    "static/js/2.803b524e.chunk.js": "/rYTS-clone/static/js/2.803b524e.chunk.js",
+    "static/js/2.803b524e.chunk.js.map": "/rYTS-clone/static/js/2.803b524e.chunk.js.map",
+    "static/js/3.801a46f0.chunk.js": "/rYTS-clone/static/js/3.801a46f0.chunk.js",
+    "static/js/3.801a46f0.chunk.js.map": "/rYTS-clone/static/js/3.801a46f0.chunk.js.map",
+    "index.html": "/rYTS-clone/index.html",
+    "static/css/main.88b3a0b3.chunk.css.map": "/rYTS-clone/static/css/main.88b3a0b3.chunk.css.map",
+    "static/js/2.803b524e.chunk.js.LICENSE.txt": "/rYTS-clone/static/js/2.803b524e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/rYTS-clone/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd618295.js",
+    "static/js/2.803b524e.chunk.js",
+    "static/css/main.88b3a0b3.chunk.css",
+    "static/js/main.bbca37b7.chunk.js"
+  ]
+}
