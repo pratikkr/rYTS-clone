@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 0px;
 }
 
 .App-logo {
@@ -35,4 +36,310 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* 
+                                  HEADER CSS Properties                                       */
+.nav-bar {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  position: relative;
+}
+.search-bar {
+  width: 300px;
+  background: transparent;
+  height: 30px;
+  border: 1px solid floralwhite;
+  font-size: larger;
+  outline: none;
+  border-radius: 40px;
+  color: aqua;
+}
+.nav-links {
+  width: 500px;
+}
+.nav-linkss {
+  background-color: transparent;
+  display: flex;
+  padding-bottom: 10px;
+  font-size: larger;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #919191;
+  /* flex-direction: row-reverse; */
+}
+.qwality {
+  color: lawngreen;
+}
+.li-login {
+  color: red;
+  border-right: 1px solid white;
+}
+.l1:hover {
+  color: white;
+  cursor: pointer;
+}
+#login {
+  border-right: 2px solid white;
+}
+/* header css completed */
+/*                              Body Styling                        */
+h1 {
+  text-align: center;
+  height: 100px;
+  color: white;
+}
+.infoYts {
+  text-align: center;
+  margin-left: 20%;
+  background-color: transparent;
+  width: 60%;
+  color: white;
+}
+.important {
+  color: rgb(0, 0, 209);
+}
+.important:hover {
+  color: rgb(56, 56, 148);
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #141111;
+}
+
+/* movie cards css properties */
+.movielist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  border: 2px solid;
+  width: 90%;
+}
+.movie-card {
+  margin: 30px;
+  width: 242.5px;
+  height: 366px;
+}
+.container {
+  position: relative;
+  width: 202px;
+  border: 8px solid white;
+}
+
+.image {
+  display: block;
+  width: 202px;
+  height: inherit;
+}
+
+.overlay {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 242px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.container:hover .image {
+  opacity: 0.5;
+}
+.container:hover {
+  border: 8px solid green;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title {
+  margin-top: 10px;
+  font-weight: 500;
+  color: white;
+}
+.year {
+  color: white;
+}
+
+/*     Movie Details Area  css properties*/
+.main-box {
+  width: 90%;
+  background-color: #141111;
+  color: antiquewhite;
+
+  margin-left: 5%;
+}
+
+/* top shelf has 3 div i.e. movie card and download option , name and other details and Similar movies */
+.top-shelf {
+  width: 100%;
+  background-color: transparent;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+}
+.display {
+  margin-top: 20px;
+  background-color: black;
+  width: 261px;
+  height: 390px;
+  border: 8px solid white;
+}
+.download {
+  width: 278px;
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  height: 48.8;
+  font-weight: 600;
+  color: antiquewhite;
+  background-color: rgb(2, 105, 2);
+}
+
+/* Related movies or similar movies css properties */
+
+.related {
+  width: 291px;
+  height: 359px;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+.r1 {
+  margin: 10px;
+  width: 92px;
+  height: 138px;
+  border: 6px solid white;
+}
+.r1:hover {
+  margin: 10px;
+  width: 92px;
+  height: 138px;
+  border: 6px solid green;
+}
+
+/* Second shelf is for movie images */
+
+.second-shelf {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.img-container {
+  display: flex;
+  justify-content: space-around;
+}
+.l1 .l2 {
+  display: flex;
+  /* width: 92px;
+  height: 138px; */
+  justify-content: space-between;
+}
+
+.l2-img {
+  width: 33%;
+  height: 178px;
+}
+
+/* Third shelf includes Synosis cast and directors */
+
+.third-shelf {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.synopsis {
+  width: 56%;
+}
+.cast {
+  width: 30%;
+}
+
+/* Techinal specs area  */
+
+.technical {
+  background-color: transparent;
+}
+.tec {
+  width: 500px;
+  text-align: start;
+}
+.tek {
+  display: flex;
+}
+.kw {
+  margin-top: 50px;
+}
+.spec {
+  margin: auto;
+  width: 75%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.s1 {
+  width: 15%;
+}
+/* Forth shelf css comments */
+
+.fourth-shelf {
+  display: flex;
+  justify-content: space-around;
+}
+.first-comment {
+  background-color: black;
+  width: 600px;
+  color: white;
+  height: 100px;
+}
+.c2 {
+  padding-top: 20px;
+  text-align: center;
+  background-color: black;
+  width: 600px;
+  color: white;
+  height: 50px;
+}
+footer {
+  padding-top: 40px;
+  margin: auto;
+  font-size: 50px;
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+  height: 100px;
+  width: 90%;
+  background-color: transparent;
+  color: white;
+}
+a {
+  color: #919191;
+  font-style: unset;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
 }
